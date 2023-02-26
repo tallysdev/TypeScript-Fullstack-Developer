@@ -1,12 +1,16 @@
 import { DioAccont } from "./DioAccont"
 
-class companyAccont extends DioAccont {
+export class CompanyAccont extends DioAccont {
 
-    constructor(name, accontNumber) {
+    constructor(name: string, accontNumber:number) {
         super(name, accontNumber)
     }
 
     getLoan = (): void => {
         console.log("Voce pegou um emprestimo")
+    }
+
+    deposit = (): void => {
+        console.log(this.name, "está despositando")
     }
 }
