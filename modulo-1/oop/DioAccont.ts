@@ -8,15 +8,15 @@ export abstract class DioAccont {
         this.accontNumber = accontNumber
     }
 
-    deposit = () => {
+    deposit = (): void => {
         console.log("Voce está depositando")
     }
 
-    withdraw = () => {
+    withdraw = (): void => {
         console.log("Voce está sacando")
     }
 
-    getBalance = () => {
+    getBalance = (): void => {
         this.balance = 20
     }
 }

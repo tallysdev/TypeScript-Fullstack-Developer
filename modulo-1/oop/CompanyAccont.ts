@@ -6,7 +6,7 @@ class companyAccont extends DioAccont {
         super(name, accontNumber)
     }
 
-    getLoan = () => {
+    getLoan = (): void => {
         console.log("Voce pegou um emprestimo")
     }
 }
