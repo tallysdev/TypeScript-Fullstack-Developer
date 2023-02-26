@@ -13,4 +13,5 @@ export class CompanyAccont extends DioAccont {
     deposit = (): void => {
         console.log(this.name, "está despositando")
     }
+
 }
